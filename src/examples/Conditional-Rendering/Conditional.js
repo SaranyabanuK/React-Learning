@@ -1,4 +1,4 @@
-function ConditionalDemo() {
+function Conditional() {
   const isLoggedIn = false; 
 
   return (
@@ -13,4 +13,4 @@ function ConditionalDemo() {
   );
 }
 
-export default ConditionalDemo;
+export default Conditional;

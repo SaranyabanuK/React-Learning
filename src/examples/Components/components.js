@@ -1,6 +1,6 @@
 import Welcome from './welcome';
 
-function ComponentsDemo() {
+function Components() {
   return (
     <div>
       <h1> Components in React</h1>
@@ -10,4 +10,4 @@ function ComponentsDemo() {
   );
 }
 
-export default ComponentsDemo;
+export default Components;

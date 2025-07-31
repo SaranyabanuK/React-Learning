@@ -1,4 +1,4 @@
-function JSXDemo() {
+function JSX() {
   const name = "Saranya";
   const currentYear = new Date().getFullYear();
 
@@ -11,4 +11,4 @@ function JSXDemo() {
   );
 }
 
-export default JSXDemo;
+export default JSX;

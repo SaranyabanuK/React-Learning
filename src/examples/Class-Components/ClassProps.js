@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Bike from './Bike';
 
-class ClassPropsDemo extends Component {
+class ClassProps extends Component {
   render() {
     return (
       <div>
@@ -14,4 +14,4 @@ class ClassPropsDemo extends Component {
   }
 }
 
-export default ClassPropsDemo;
+export default ClassProps;

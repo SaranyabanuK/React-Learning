@@ -1,6 +1,6 @@
 import Car from './Car';
 
-function PropsDemo() {
+function Props() {
   return (
     <div>
       <h1> Props in React</h1>
@@ -11,4 +11,4 @@ function PropsDemo() {
   );
 }
 
-export default PropsDemo;
+export default Props;

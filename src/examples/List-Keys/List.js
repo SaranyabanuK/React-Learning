@@ -1,4 +1,4 @@
-function ListDemo() {
+function List() {
   const fruits = ["Apple", "Banana", "Orange", "Mango", "Grapes"];
 
   return (
@@ -13,4 +13,4 @@ function ListDemo() {
   );
 }
 
-export default ListDemo;
+export default List;

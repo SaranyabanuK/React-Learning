@@ -18,6 +18,14 @@ import ObjectState from './examples/State/ObjectState';
 import UpdateObjectState from './examples/State/UpdateObject';
 import UpdateObjectClass from './examples/State/ObjectClass';
 import ArrayState from './examples/State/ArrayState';
+import UseEffectBasic from './examples/useEffect/useEffectB';
+import UseEffectDependency from './examples/useEffect/useEffectDependency';
+import UseEffectCleanup from './examples/useEffect/useEffectCleanup';
+import SimpleForm from './examples/Forms/SimpleForm';
+import MultipleInputsForm from './examples/Forms/MultipleInputForms';
+import SimplifiedHandlerForm from './examples/Forms/SimplifiedHandlerForm';
+import InitialValuesForm from './examples/Forms/InitialValuesForm';
+import TextAreaForm from './examples/Forms/TextAreaForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -37,6 +45,14 @@ root.render(
       <UpdateObjectState/>
       <UpdateObjectClass/>
       <ArrayState/>
+      <UseEffectBasic/>
+      <UseEffectDependency/>
+      <UseEffectCleanup/>
+      <SimpleForm/>
+      <MultipleInputsForm/>
+      <SimplifiedHandlerForm/>
+      <InitialValuesForm/>
+      <TextAreaForm/>
   </React.StrictMode>
 );
 

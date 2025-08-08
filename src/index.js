@@ -11,21 +11,26 @@ import Conditional from './examples/Conditional-Rendering/Conditional'
 import List from './examples/List-Keys/List'
 import InlineCSS from './examples/CSS/InlineCSS';
 import Stylesheet from './examples/CSS/Stylesheet';
-import UseState from './examples/State/UseState';
-import ClassState from './examples/State/ClassState';
-import MultipleState from './examples/State/MultipleState';
-import ObjectState from './examples/State/ObjectState';
-import UpdateObjectState from './examples/State/UpdateObject';
-import UpdateObjectClass from './examples/State/ObjectClass';
-import ArrayState from './examples/State/ArrayState';
-import UseEffectBasic from './examples/useEffect/useEffectB';
-import UseEffectDependency from './examples/useEffect/useEffectDependency';
-import UseEffectCleanup from './examples/useEffect/useEffectCleanup';
+import UseState from './examples/Hooks/State/UseState';
+import ClassState from './examples/Hooks/State/ClassState';
+import MultipleState from './examples/Hooks/State/MultipleState';
+import ObjectState from './examples/Hooks/State/ObjectState';
+import UpdateObjectState from './examples/Hooks/State/UpdateObject';
+import UpdateObjectClass from './examples/Hooks/State/ObjectClass';
+import ArrayState from './examples/Hooks/State/ArrayState';
+import UseEffectBasic from './examples/Hooks/useEffect/useEffectB';
+import UseEffectDependency from './examples/Hooks/useEffect/useEffectDependency';
+import UseEffectCleanup from './examples/Hooks/useEffect/useEffectCleanup';
 import SimpleForm from './examples/Forms/SimpleForm';
 import MultipleInputsForm from './examples/Forms/MultipleInputForms';
 import SimplifiedHandlerForm from './examples/Forms/SimplifiedHandlerForm';
 import InitialValuesForm from './examples/Forms/InitialValuesForm';
 import TextAreaForm from './examples/Forms/TextAreaForm';
+import UseRef from './examples/Hooks/UseRef/UseRef';
+import CustomHook from './examples/Hooks/CustomHooks/Customhook';
+import DogImages from './examples/APIFetch/APIfetching';
+import RouterE from './examples/Routing/Route';
+import Map from './examples/Mapping/Map';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -53,6 +58,11 @@ root.render(
       <SimplifiedHandlerForm/>
       <InitialValuesForm/>
       <TextAreaForm/>
+      <UseRef/>
+      <CustomHook/>
+      <DogImages/>
+      <RouterE/>
+      <Map/>
   </React.StrictMode>
 );
 
